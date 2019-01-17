@@ -5,6 +5,12 @@ https://github.com/feathersjs/feathers
 ```
 npm install @feathersjs/feathers @feathersjs/socketio @feathersjs/express feathers-memory
 node app
+
+npm install -g @feathersjs/cli
+mkdir my-new-app
+cd my-new-app/
+feathers generate app
+npm start
 ```
 
 ```
